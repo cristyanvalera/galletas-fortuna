@@ -20,6 +20,10 @@ h1 {
 
 p {
 	text-align: center;
+	background-color: #FFF9;
+	color: black;
+	padding: 1em;
+	border-radius: 1em;
 }
 
 button {
@@ -40,4 +44,13 @@ button {
 	flex-direction: column;
 	align-items: center;
 	min-height: 90vh;
+}
+
+.content {
+	min-height: 65vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: fit-content;
+	padding: 1.5em;
 }

@@ -4,7 +4,7 @@ export const RandomPhrase = ({ quote }) => {
     return (
         <div>
             <p><q>{phrase}</q></p>
-            <small>Fuente: {author}</small>
+            <p><small>Fuente: {author}</small></p>
         </div>
     );
 };

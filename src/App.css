@@ -9,7 +9,35 @@ body {
 	color: white;
 }
 
+h1 {
+	text-align: center;
+	text-shadow:
+		2px 2px 0 #EEA556,
+		-2px -2px 0 #EEA556,
+		-2px 2px 0 #EEA556,
+		2px -2px 0 #EEA556;
+}
+
+p {
+	text-align: center;
+}
+
 button {
 	cursor: pointer;
 	font-family: inherit;
+	color: #8E3D4C;
+	background-color: #FEA646;
+	border: 2px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.container {
+	width: 320px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 90vh;
 }

@@ -10,7 +10,7 @@ function App() {
 	const [quote, setQuote] = useState(sentence);
 
 	return (
-		<div>
+		<div className="container">
 			<h1>Galletas de la fortuna</h1>
 
 			<ButtonPhrase setQuote={setQuote} />

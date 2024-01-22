@@ -7,6 +7,8 @@ html {
 body {
 	background-color: black;
 	color: white;
+	padding: 0;
+	margin: 0;
 }
 
 h1 {
@@ -35,6 +37,13 @@ button {
 	padding: 10px 20px;
 	border-radius: 10px;
 	font-weight: 700;
+	width: 20em;
+	transition: transform .25s;
+}
+
+button:hover {
+	transform: scale(1.1);
+	transition: transform .25s;
 }
 
 .container {
@@ -43,7 +52,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	min-height: 90vh;
+	min-height: 95vh;
 }
 
 .content {
@@ -52,5 +61,11 @@ button {
 	flex-direction: column;
 	justify-content: space-around;
 	width: fit-content;
-	padding: 1.5em;
+	padding: 1em;
+}
+
+.app {
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
 }
